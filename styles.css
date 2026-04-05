@@ -129,10 +129,6 @@ code {
   opacity: 0.5;
 }
 
-.meta-tag .br {
-  opacity: 0.45;
-}
-
 .nav-main {
   justify-self: center;
   grid-column: 2;

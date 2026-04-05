@@ -40,7 +40,7 @@
 
   initTheme();
 
-  /* Clock + date (local, Michigan-style tag is static [mi]) */
+  /* Clock + date (local) */
   function pad(n) {
     return (n < 10 ? '0' : '') + n;
   }
