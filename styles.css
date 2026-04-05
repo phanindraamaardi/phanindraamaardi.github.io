@@ -566,6 +566,31 @@ code {
   border-radius: 10px;
 }
 
+/* Logos / marks (SVG or small JPG): contained, not cropped */
+.work-visual--brand {
+  background: linear-gradient(
+    165deg,
+    color-mix(in srgb, var(--bg-2) 88%, #cbd5e1),
+    var(--bg-2)
+  );
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  align-self: start;
+}
+
+[data-theme="dark"] .work-visual--brand {
+  background: linear-gradient(165deg, #1c1c1c, #111);
+}
+
+.work-visual--brand img {
+  aspect-ratio: auto;
+  min-height: 200px;
+  max-height: 300px;
+  object-fit: contain;
+  object-position: center;
+  padding: clamp(1.25rem, 4vw, 3rem);
+}
+
 .work-caption {
   font-size: 0.78rem;
   color: var(--muted);

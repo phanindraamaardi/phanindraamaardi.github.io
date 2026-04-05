@@ -34,7 +34,7 @@
     .hero-badge { display: inline-flex; align-items: center; gap: .5rem; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 1rem; }
     .hero-badge span { padding: .35rem .75rem; border-radius: 999px; border: 1px solid var(--line); background: rgba(245,158,11,.12); color: var(--fg); }
   </style>
-  <link rel="stylesheet" href="styles.css?v=8">
+  <link rel="stylesheet" href="styles.css?v=9">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -194,13 +194,13 @@
       <section class="section section-work" id="work">
         <div class="section-tag">[03]</div>
         <h2 class="section-title">Work</h2>
-        <p class="section-intro section-intro-wide"><strong>Newest role first</strong>—then backward through my career to graduate research. Each image is a <strong>real photograph</strong> matched to the theme (swap files in <code>images/</code> for your own project shots).</p>
+        <p class="section-intro section-intro-wide"><strong>Newest role first</strong>—then backward through my career to graduate research. Work visuals use <strong>company-linked imagery</strong> (logos and industry photos from <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>; Motional: Ioniq 5 platform used in public robotaxi programs). Swap files in <code>images/company/</code> anytime.</p>
 
         <article class="work-row work-row--highlight">
           <div class="work-num">[01]</div>
           <div class="work-visual">
-            <img src="images/photo-work-motional.jpg" alt="Performance car on a road network" width="1200" height="800" loading="lazy" decoding="async">
-            <p class="work-caption">Release strategy, fleet evaluation, and metrics—how autonomy software ships with confidence.</p>
+            <img src="images/company/motional-hyundai-ioniq5.jpg" alt="Hyundai Ioniq 5 electric vehicle, the platform used in Motional public robotaxi fleets" width="1200" height="800" loading="lazy" decoding="async">
+            <p class="work-caption">Hyundai Ioniq 5–class EVs anchor Motional’s public robotaxi work—photo via Wikimedia Commons.</p>
           </div>
           <div class="work-copy">
             <div class="work-flag work-flag--current">Current role</div>
@@ -234,9 +234,9 @@
 
         <article class="work-row work-row-reverse">
           <div class="work-num">[02]</div>
-          <div class="work-visual">
-            <img src="images/photo-work-aptiv.jpg" alt="Car cockpit with displays and driver assistance technology" width="1200" height="800" loading="lazy" decoding="async">
-            <p class="work-caption">Autonomous vehicle testing: sensors, system behavior, lab and on-road validation.</p>
+          <div class="work-visual work-visual--brand">
+            <img src="images/company/aptiv-logo.svg" alt="Aptiv logo" width="800" height="200" loading="lazy" decoding="async">
+            <p class="work-caption">Aptiv brand (Delphi successor)—logo from Wikimedia Commons.</p>
           </div>
           <div class="work-copy">
             <div class="work-flag work-flag--aptiv">Back to autonomous driving</div>
@@ -270,8 +270,8 @@
         <article class="work-row">
           <div class="work-num">[03]</div>
           <div class="work-visual">
-            <img src="images/photo-work-autoliv.jpg" alt="Vehicle crash safety testing" width="1200" height="800" loading="lazy" decoding="async">
-            <p class="work-caption">Application engineering: drawings, validation, and release support for safety products.</p>
+            <img src="images/company/autoliv-airbag-crash.jpg" alt="Crash test with airbag deployment" width="1200" height="800" loading="lazy" decoding="async">
+            <p class="work-caption">Occupant-safety validation context (airbag / crash testing)—photo via Wikimedia Commons.</p>
           </div>
           <div class="work-copy">
             <h3 class="work-title">Autoliv — Application Engineer</h3>
@@ -301,8 +301,8 @@
         <article class="work-row work-row-reverse">
           <div class="work-num">[04]</div>
           <div class="work-visual">
-            <img src="images/photo-work-autoliv.jpg" alt="Vehicle crash safety testing" width="1200" height="800" loading="lazy" decoding="async">
-            <p class="work-caption">Crash analysis: simulation, physical test data, and standards-driven occupant safety.</p>
+            <img src="images/company/autoliv-crash-iihs.jpg" alt="IIHS crash test dummy in vehicle" width="1200" height="800" loading="lazy" decoding="async">
+            <p class="work-caption">Crash testing &amp; occupant evaluation—IIHS-related scene, Wikimedia Commons.</p>
           </div>
           <div class="work-copy">
             <h3 class="work-title">Autoliv — Crash Analysis Engineer</h3>
@@ -334,9 +334,9 @@
 
         <article class="work-row">
           <div class="work-num">[05]</div>
-          <div class="work-visual">
-            <img src="images/photo-work-kettering.jpg" alt="Laboratory research and instrumentation" width="1200" height="800" loading="lazy" decoding="async">
-            <p class="work-caption">Autonomous systems research: perception, control, simulation, and prototype vehicles.</p>
+          <div class="work-visual work-visual--brand">
+            <img src="images/company/kettering-bulldog.jpg" alt="Kettering University bulldog logo" width="600" height="450" loading="lazy" decoding="async">
+            <p class="work-caption">Kettering University mark—CC BY–SA Wikimedia Commons.</p>
           </div>
           <div class="work-copy">
             <h3 class="work-title">Kettering University — Autonomous Vehicle Research</h3>
@@ -376,19 +376,6 @@
               <li>Embedded</li>
               <li>Academic</li>
             </ul>
-          </div>
-        </article>
-
-        <article class="work-row">
-          <div class="work-num">[07]</div>
-          <div class="work-visual">
-            <img src="images/photo-work-code.jpg" alt="Laptop with code on screen" width="1200" height="800" loading="lazy" decoding="async">
-            <p class="work-caption">Tools &amp; repos: dashboards, automation, and experiments I ship on GitHub.</p>
-          </div>
-          <div class="work-copy">
-            <h3 class="work-title">Tools &amp; code</h3>
-            <p class="work-desc">Repos, dashboards, and experiments on GitHub—side projects and developer productivity ideas.</p>
-            <a class="work-link" href="https://github.com/phanindraamaardi" target="_blank" rel="noopener noreferrer">View GitHub →</a>
           </div>
         </article>
       </section>
@@ -451,7 +438,7 @@
     <footer class="frame-foot">
       <p>© <span id="year"></span> Phanindra Amaradi</p>
       <p class="foot-note">Updated portfolio lives at the <a href="https://phanindraamaardi.github.io/">site root</a> (not the older <code>…/phanindra.amaradi.github.io/</code> project page).</p>
-      <p class="foot-photo">Photography is stock (Unsplash), stored locally in <code>images/photo-*.jpg</code> for reliable loading—replace with your own project or team photos anytime.</p>
+      <p class="foot-photo">Strip &amp; about photos: Unsplash (<code>images/photo-*.jpg</code>). <strong>Work section company images</strong> are from <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> (logos may be PD / trademarked; Kettering bulldog: CC BY–SA). Not affiliated with or endorsed by these companies—illustrative only.</p>
     </footer>
   </div>
 
