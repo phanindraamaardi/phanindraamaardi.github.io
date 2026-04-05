@@ -9,7 +9,7 @@
   --serif: "Instrument Serif", Georgia, serif;
   --sans: "Inter", system-ui, sans-serif;
   --pad-x: clamp(1rem, 4vw, 3.5rem);
-  --max: 1120px;
+  --max: min(1320px, 96vw);
 }
 
 :root[data-theme="dark"] {
@@ -19,6 +19,10 @@
   --muted: #a39e96;
   --line: rgba(240, 235, 228, 0.12);
   --accent: #f0ebe4;
+  --serif: "Instrument Serif", Georgia, serif;
+  --sans: "Inter", system-ui, sans-serif;
+  --pad-x: clamp(1rem, 4vw, 3.5rem);
+  --max: min(1320px, 96vw);
 }
 
 *,
@@ -346,7 +350,7 @@ code {
   font-size: 0.9rem;
   line-height: 1.5;
   color: var(--muted);
-  max-width: 36rem;
+  max-width: min(52rem, 100%);
   margin: 0 0 1.75rem;
 }
 
@@ -355,7 +359,7 @@ code {
   font-size: clamp(1.35rem, 3.2vw, 2rem);
   font-weight: 400;
   line-height: 1.45;
-  max-width: 38rem;
+  max-width: min(56rem, 100%);
   margin: 0 0 2.5rem;
 }
 
