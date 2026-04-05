@@ -346,7 +346,23 @@ code {
   letter-spacing: 0.02em;
 }
 
+/* Recruiter-facing value line (first concrete “why you”) */
+.hero-hook {
+  font-size: clamp(1rem, 2.1vw, 1.15rem);
+  font-weight: 500;
+  line-height: 1.55;
+  color: var(--fg);
+  max-width: min(40rem, 100%);
+  margin: 0 0 1.35rem;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  border-radius: 0 10px 10px 0;
+}
 
+[data-theme="dark"] .hero-hook {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
 
 .hero-intro {
   font-size: 0.92rem;
