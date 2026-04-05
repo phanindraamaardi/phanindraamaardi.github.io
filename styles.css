@@ -79,6 +79,41 @@ code {
   font-style: italic;
 }
 
+.lang-note {
+  font-size: 0.9rem !important;
+  margin-top: 1rem !important;
+  color: var(--muted);
+}
+
+.education-list {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+
+.education-list > li {
+  margin-bottom: 1.25rem;
+}
+
+.education-list > li:last-child {
+  margin-bottom: 0;
+}
+
+.subsection-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.75rem;
+  color: var(--text);
+}
+
+.creds {
+  margin-top: 0.5rem !important;
+}
+
+.creds li {
+  margin-bottom: 0.5rem;
+}
+
 *,
 *::before,
 *::after {
