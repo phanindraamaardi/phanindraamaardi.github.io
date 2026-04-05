@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Phanindra Amaradi — Autonomy, ADAS, verification, MATLAB/Simulink, CAD, and engineering leadership.">
+  <meta name="description" content="Phanindra Amaradi — Autonomous vehicles since 2013. IEEE research, Aptiv sensors, Motional AV performance & verification.">
   <meta property="og:title" content="Phanindra Amaradi">
-  <meta property="og:description" content="Autonomy, triage, and systems verification at scale.">
+  <meta property="og:description" content="Autonomous vehicles engineer — research, IEEE publications, and shipping autonomy on the road.">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#f7f4ef">
   <title>Phanindra Amaradi</title>
@@ -14,7 +14,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <style id="critical-css">
-    /* Fallback if external stylesheet is blocked or 404 — keeps layout usable */
     :root { --bg: #f7f4ef; --fg: #0c0c0c; --muted: #5c5c5c; --line: rgba(12,12,12,.12); }
     [data-theme="dark"] { --bg: #0e0e0e; --fg: #f0ebe4; --muted: #a39e96; --line: rgba(240,235,228,.12); }
     html { background: var(--bg); scroll-behavior: smooth; }
@@ -32,8 +31,10 @@
     .section { padding: 3rem 1.25rem; max-width: 1120px; margin: 0 auto; border-top: 1px solid var(--line); }
     .skip-link { position: absolute; left: -9999px; top: .5rem; z-index: 9999; padding: .5rem 1rem; background: var(--fg); color: var(--bg); }
     .skip-link:focus { left: .5rem; }
+    .hero-badge { display: inline-flex; align-items: center; gap: .5rem; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 1rem; }
+    .hero-badge span { padding: .35rem .75rem; border-radius: 999px; border: 1px solid var(--line); background: rgba(245,158,11,.12); color: var(--fg); }
   </style>
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -54,11 +55,12 @@
         </button>
         <nav class="nav-main" id="nav-main" aria-label="Primary">
           <ul class="nav-main-list">
-            <li><a href="#info" data-nav><span class="nav-idx">01</span> <span class="nav-txt">Info</span></a></li>
-            <li><a href="#work" data-nav><span class="nav-idx">02</span> <span class="nav-txt">Work</span></a></li>
-            <li><a href="#capabilities" data-nav><span class="nav-idx">03</span> <span class="nav-txt">Capabilities</span></a></li>
-            <li><a href="#archive" data-nav><span class="nav-idx">04</span> <span class="nav-txt">Archive</span></a></li>
-            <li><a href="#contact" data-nav><span class="nav-idx">05</span> <span class="nav-txt">Contact</span></a></li>
+            <li><a href="#about" data-nav><span class="nav-idx">01</span> <span class="nav-txt">Story</span></a></li>
+            <li><a href="#research" data-nav><span class="nav-idx">02</span> <span class="nav-txt">Research</span></a></li>
+            <li><a href="#work" data-nav><span class="nav-idx">03</span> <span class="nav-txt">Work</span></a></li>
+            <li><a href="#capabilities" data-nav><span class="nav-idx">04</span> <span class="nav-txt">Capabilities</span></a></li>
+            <li><a href="#archive" data-nav><span class="nav-idx">05</span> <span class="nav-txt">Archive</span></a></li>
+            <li><a href="#contact" data-nav><span class="nav-idx">06</span> <span class="nav-txt">Contact</span></a></li>
           </ul>
         </nav>
         <button type="button" class="theme-flip" id="theme-flip" aria-label="Switch light and dark theme" title="Theme"></button>
@@ -72,14 +74,15 @@
 
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-heading">
+        <p class="hero-badge"><span>Autonomous vehicles</span> focused since 2013</p>
         <div class="hero-name-block">
           <h1 id="hero-heading" class="hero-name">Phanindra Amaradi</h1>
           <p class="hero-name ghost" aria-hidden="true">Phanindra Amaradi</p>
         </div>
-        <p class="hero-role">Engineering Leader · Autonomy &amp; AV Performance</p>
-        <p class="hero-strengths">Autonomous vehicles, ADAS, computer vision, MATLAB/Simulink, SolidWorks, CATIA, FEA—and the test discipline that proves it on the road.</p>
+        <p class="hero-role">Engineering leader · autonomy, AV performance &amp; verification</p>
+        <p class="hero-strengths">I am an <strong>autonomous vehicles</strong> engineer at heart. My interest started in <strong>2013</strong> during graduate research—two IEEE publications on AV perception and planning—then a few years in crash and safety. I came <strong>back to autonomy</strong> with <strong>Aptiv</strong> (sensors &amp; verification) and now ship at <strong>Motional</strong>.</p>
         <p class="hero-lead">
-          <span class="hash">#</span> I turn road feedback into clear priorities—leading triage, integration, and verification so autonomy teams ship learning, not noise.
+          <span class="hash">#</span> Road feedback, honest triage, and test discipline—from MATLAB models to public-road programs.
         </p>
         <a class="scroll-hint" href="#strip">[scroll to explore]</a>
       </section>
@@ -97,29 +100,146 @@
         </div>
       </div>
 
-      <section class="section" id="info">
+      <section class="section section-about" id="about">
         <div class="section-tag">[01]</div>
-        <h2 class="section-title">About</h2>
-        <div class="about-layout">
+        <h2 class="section-title">Story</h2>
+        <p class="section-intro section-intro-wide">A simple arc: <em>research → industry foundations → back to autonomous driving → scale.</em></p>
+
+        <ol class="journey-timeline" aria-label="Career path">
+          <li class="journey-step journey-step--research">
+            <span class="journey-dot" aria-hidden="true"></span>
+            <div class="journey-body">
+              <span class="journey-year">2013–2015</span>
+              <h3 class="journey-title">Graduate research · Kettering</h3>
+              <p>Lane tracking, motion planning, SICK LiDAR obstacle avoidance, steering control—published <strong>two IEEE-related papers</strong> on autonomous vehicles (see Research). That is where the AV thread really started.</p>
+            </div>
+          </li>
+          <li class="journey-step journey-step--safety">
+            <span class="journey-dot" aria-hidden="true"></span>
+            <div class="journey-body">
+              <span class="journey-year">2016–2019</span>
+              <h3 class="journey-title">Autoliv · safety &amp; crash</h3>
+              <p>Application engineering and crash analysis—deep vehicle-side understanding before returning full-time to the autonomy stack.</p>
+            </div>
+          </li>
+          <li class="journey-step journey-step--aptiv">
+            <span class="journey-dot" aria-hidden="true"></span>
+            <div class="journey-body">
+              <span class="journey-year">2019–2020</span>
+              <h3 class="journey-title">Aptiv · back to autonomous driving</h3>
+              <p>Sensor test &amp; verification for cameras, radar, lidar, ultrasonics, IMU—working the AD system envelope, requirements, and on-road proof. <strong>This was the deliberate return to AV.</strong></p>
+            </div>
+          </li>
+          <li class="journey-step journey-step--motional">
+            <span class="journey-dot" aria-hidden="true"></span>
+            <div class="journey-body">
+              <span class="journey-year">2020–present</span>
+              <h3 class="journey-title">Motional · shipping autonomy</h3>
+              <p>Systems test, triage, AV performance—public roads, simulation, HIL, and global leadership on how we learn from the fleet.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="about-layout about-layout--after">
           <div class="about-visual">
             <img src="images/about.svg" alt="" class="about-photo" width="720" height="900" loading="lazy" decoding="async">
             <p class="caption">Placeholder graphic — add <code>images/portrait.jpg</code> and point <code>src</code> here if you want a photo.</p>
           </div>
           <div class="about-text">
-            <p class="about-pull">Cars and engineering have been a through-line—design, dynamics, and systems thinking. I still bring that obsession to work: <strong>rigor, clarity, and respect for the machine</strong>—whether it’s a vehicle platform or a software release.</p>
-            <p>From crash testing and occupant safety to ADAS/AV sensors and global leadership, I care about <em>honest triage</em>, component-level performance, and verification that spans simulation and HIL.</p>
+            <p class="about-pull">Cars and engineering have been a through-line—design, dynamics, and systems thinking. I still bring that obsession to work: <strong>rigor, clarity, and respect for the machine</strong>—whether it is a vehicle platform or a software release.</p>
             <p>Languages: English, Hindi, Telugu.</p>
           </div>
         </div>
       </section>
 
-      <section class="section section-work" id="work">
+      <section class="section section-research" id="research">
         <div class="section-tag">[02]</div>
+        <h2 class="section-title">Research &amp; IEEE publications</h2>
+        <p class="section-intro section-intro-wide">From my graduate work—<strong>two peer-reviewed IEEE-related publications</strong> on autonomous vehicles. Replace the IEEE Xplore links below with your <em>direct document URLs</em> from each paper’s page when you paste them in.</p>
+
+        <div class="pub-grid">
+          <article class="pub-card pub-card--a">
+            <p class="pub-ribbon">Achievement</p>
+            <h3 class="pub-title">Vision-based lane tracking &amp; path planning for autonomous navigation</h3>
+            <p class="pub-meta">IEEE conference / proceedings · graduate research era · ~2014–2015</p>
+            <p class="pub-desc">Lane detection, vehicle positioning vs. lane center, and motion planning in MATLAB/Simulink—foundational to how I still think about perception and control.</p>
+            <div class="pub-actions">
+              <a class="pub-btn pub-btn--primary" href="https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=Phanindra+Amaradi+lane+autonomous+vehicle" target="_blank" rel="noopener noreferrer">IEEE Xplore →</a>
+              <a class="pub-btn pub-btn--secondary" href="https://www.mathworks.com/matlabcentral/fileexchange/58293-lane-detection-and-obstacle-avoidance" target="_blank" rel="noopener noreferrer">MATLAB models →</a>
+            </div>
+          </article>
+          <article class="pub-card pub-card--b">
+            <p class="pub-ribbon">Achievement</p>
+            <h3 class="pub-title">LiDAR obstacle avoidance &amp; steering control for autonomous ground vehicles</h3>
+            <p class="pub-meta">IEEE conference / proceedings · graduate research era · ~2014–2015</p>
+            <p class="pub-desc">SICK LiDAR–based avoidance, steering architecture, and sensor tradeoffs—pairing perception with safe motion under real hardware constraints.</p>
+            <div class="pub-actions">
+              <a class="pub-btn pub-btn--primary" href="https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=Phanindra+Amaradi+LiDAR+obstacle+autonomous" target="_blank" rel="noopener noreferrer">IEEE Xplore →</a>
+            </div>
+          </article>
+        </div>
+        <p class="pub-footnote">Tip: open your paper in IEEE Xplore, copy the stable document URL from the address bar, and replace the two <code>href</code> values on the buttons above in <code>index.html</code>.</p>
+      </section>
+
+      <section class="section section-work" id="work">
+        <div class="section-tag">[03]</div>
         <h2 class="section-title">Work</h2>
-        <p class="section-intro">Illustrations are local SVGs (always load). Swap for your own photos in <code>images/</code> anytime.</p>
+        <p class="section-intro section-intro-wide">Roughly chronological—how research turned into shipping programs.</p>
 
         <article class="work-row">
           <div class="work-num">[01]</div>
+          <div class="work-visual">
+            <img src="images/work-kettering.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+          </div>
+          <div class="work-copy">
+            <h3 class="work-title">Kettering — where AV started (2013–2015)</h3>
+            <p class="work-meta">Graduate research · IEEE papers on lane &amp; obstacle themes</p>
+            <p class="work-desc">Motion planning, lane tracking (MATLAB/Simulink), SICK LiDAR obstacle avoidance, steering control, and sensor architecture tradeoffs—Unigraphics NX / AutoCAD for structure and experiment design.</p>
+            <ul class="work-tags">
+              <li>Research</li>
+              <li>IEEE</li>
+              <li>MATLAB</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="work-row work-row-reverse">
+          <div class="work-num">[02]</div>
+          <div class="work-visual">
+            <img src="images/strip-road.svg" alt="" width="600" height="400" loading="lazy" decoding="async">
+          </div>
+          <div class="work-copy">
+            <h3 class="work-title">Autoliv · safety &amp; crash</h3>
+            <p class="work-meta">Application engineering &amp; crash analysis · 2016–2019</p>
+            <p class="work-desc">Deep vehicle-side and occupant-safety context—valuable grounding before I moved back into full autonomous-systems work.</p>
+            <ul class="work-tags">
+              <li>Safety</li>
+              <li>Crash</li>
+              <li>Applications</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="work-row work-row--highlight">
+          <div class="work-num">[03]</div>
+          <div class="work-visual">
+            <img src="images/work-aptiv.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+          </div>
+          <div class="work-copy">
+            <div class="work-flag work-flag--aptiv">Back to autonomous driving</div>
+            <h3 class="work-title">Aptiv — sensors &amp; verification</h3>
+            <p class="work-meta">Sr. System Engineer, Test &amp; Verification · 2019–2020</p>
+            <p class="work-desc">After safety-focused roles, this is where I <strong>returned to the autonomous driving stack</strong>: test plans for AV sensors—cameras, radar, lidar, ultrasonics, IMU. Partnered with R&amp;D on the AD system, operational envelope, tools, and processes; documented automated-driving requirements; CAN, ECUs, lab and on-road testing; NHTSA Levels 2–5 context.</p>
+            <ul class="work-tags">
+              <li>Aptiv</li>
+              <li>Sensors</li>
+              <li>Verification</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="work-row work-row-reverse">
+          <div class="work-num">[04]</div>
           <div class="work-visual">
             <img src="images/work-motional.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
           </div>
@@ -135,42 +255,8 @@
           </div>
         </article>
 
-        <article class="work-row work-row-reverse">
-          <div class="work-num">[02]</div>
-          <div class="work-visual">
-            <img src="images/work-aptiv.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
-          </div>
-          <div class="work-copy">
-            <h3 class="work-title">Aptiv — sensor test &amp; verification</h3>
-            <p class="work-meta">Sr. System Engineer, Test &amp; Verification</p>
-            <p class="work-desc">Test plans for AV sensors—cameras, radar, lidar, ultrasonics, IMU. Worked with R&amp;D on the AD system, operational envelope, tools, and processes; documented automated-driving requirements; CAN, ECUs, lab and on-road testing; NHTSA Levels 2–5 context.</p>
-            <ul class="work-tags">
-              <li>Aptiv</li>
-              <li>Sensors</li>
-              <li>Verification</li>
-            </ul>
-          </div>
-        </article>
-
         <article class="work-row">
-          <div class="work-num">[03]</div>
-          <div class="work-visual">
-            <img src="images/work-kettering.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
-          </div>
-          <div class="work-copy">
-            <h3 class="work-title">Kettering — graduate AV research</h3>
-            <p class="work-meta">IEEE work on lane detection &amp; obstacle avoidance</p>
-            <p class="work-desc">Motion planning, lane tracking (MATLAB/Simulink), SICK LiDAR obstacle avoidance, steering control, and sensor architecture tradeoffs—Unigraphics NX / AutoCAD for structure and experiment design.</p>
-            <ul class="work-tags">
-              <li>Research</li>
-              <li>MATLAB</li>
-              <li>LiDAR</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="work-row work-row-reverse">
-          <div class="work-num">[04]</div>
+          <div class="work-num">[05]</div>
           <div class="work-visual">
             <img src="images/work-projects.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
           </div>
@@ -185,8 +271,8 @@
           </div>
         </article>
 
-        <article class="work-row">
-          <div class="work-num">[05]</div>
+        <article class="work-row work-row-reverse">
+          <div class="work-num">[06]</div>
           <div class="work-visual">
             <img src="images/work-code.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
           </div>
@@ -199,7 +285,7 @@
       </section>
 
       <section class="section" id="capabilities">
-        <div class="section-tag">[03]</div>
+        <div class="section-tag">[04]</div>
         <h2 class="section-title">Capabilities</h2>
         <div class="cap-grid">
           <div class="cap-item">
@@ -226,21 +312,20 @@
       </section>
 
       <section class="section" id="archive">
-        <div class="section-tag">[04]</div>
+        <div class="section-tag">[05]</div>
         <h2 class="section-title">Archive</h2>
         <ul class="archive-list">
           <li><span class="arc-year">Present</span> <span class="arc-name">Senior EM — Autonomy &amp; AV Performance · Motional</span></li>
           <li><span class="arc-year">2020–21</span> <span class="arc-name">EM — Systems Test &amp; Verification · Motional</span></li>
-          <li><span class="arc-year">2019–20</span> <span class="arc-name">Sr. Systems Engineer — Test · Aptiv</span></li>
+          <li><span class="arc-year">2019–20</span> <span class="arc-name">Sr. Systems Engineer — Test · Aptiv (autonomous driving sensors)</span></li>
           <li><span class="arc-year">2016–19</span> <span class="arc-name">Autoliv · Application &amp; crash analysis</span></li>
-          <li><span class="arc-year">2014–15</span> <span class="arc-name">M.S. Mechanical Engineering · Kettering</span></li>
+          <li><span class="arc-year">2014–15</span> <span class="arc-name">M.S. Mechanical Engineering · Kettering (AV research, IEEE papers)</span></li>
           <li><span class="arc-year">2010–14</span> <span class="arc-name">BSME · JNTU</span></li>
-          <li><span class="arc-year">—</span> <span class="arc-name">IEEE paper · Agile PM · Scrum · Auto design (DYPDC)</span></li>
         </ul>
       </section>
 
       <section class="section section-contact" id="contact">
-        <div class="section-tag">[05]</div>
+        <div class="section-tag">[06]</div>
         <h2 class="section-title">Let’s collaborate</h2>
         <p class="contact-lead">Open to conversations about autonomy, verification, and leadership. Best first touch:</p>
         <p class="contact-email">
