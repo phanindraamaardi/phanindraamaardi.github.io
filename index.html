@@ -33,7 +33,7 @@
     .skip-link { position: absolute; left: -9999px; top: .5rem; z-index: 9999; padding: .5rem 1rem; background: var(--fg); color: var(--bg); }
     .skip-link:focus { left: .5rem; }
   </style>
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -86,14 +86,14 @@
 
       <div class="preview-strip" id="strip" aria-hidden="true">
         <div class="preview-track">
-          <figure class="preview-cell"><img src="https://images.unsplash.com/photo-1557404763-69708cd8c851?w=600&q=80&auto=format&fit=crop" alt="" width="600" height="400" loading="lazy"></figure>
-          <figure class="preview-cell"><img src="https://images.unsplash.com/photo-1581092160562-40aa08f78845?w=600&q=80&auto=format&fit=crop" alt="" width="600" height="400" loading="lazy"></figure>
-          <figure class="preview-cell"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80&auto=format&fit=crop" alt="" width="600" height="400" loading="lazy"></figure>
-          <figure class="preview-cell"><img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&q=80&auto=format&fit=crop" alt="" width="600" height="400" loading="lazy"></figure>
-          <figure class="preview-cell" aria-hidden="true"><img src="https://images.unsplash.com/photo-1557404763-69708cd8c851?w=600&q=80&auto=format&fit=crop" alt="" width="600" height="400" loading="lazy"></figure>
-          <figure class="preview-cell" aria-hidden="true"><img src="https://images.unsplash.com/photo-1581092160562-40aa08f78845?w=600&q=80&auto=format&fit=crop" alt="" width="600" height="400" loading="lazy"></figure>
-          <figure class="preview-cell" aria-hidden="true"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80&auto=format&fit=crop" alt="" width="600" height="400" loading="lazy"></figure>
-          <figure class="preview-cell" aria-hidden="true"><img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&q=80&auto=format&fit=crop" alt="" width="600" height="400" loading="lazy"></figure>
+          <figure class="preview-cell"><img src="images/strip-road.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell"><img src="images/strip-sensors.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell"><img src="images/strip-research.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell"><img src="images/strip-code.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell" aria-hidden="true"><img src="images/strip-road.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell" aria-hidden="true"><img src="images/strip-sensors.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell" aria-hidden="true"><img src="images/strip-research.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell" aria-hidden="true"><img src="images/strip-code.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
         </div>
       </div>
 
@@ -102,8 +102,8 @@
         <h2 class="section-title">About</h2>
         <div class="about-layout">
           <div class="about-visual">
-            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=720&q=85&auto=format&fit=crop" alt="" class="about-photo" width="720" height="900" loading="lazy">
-            <p class="caption">Replace with your photo — edit <code>index.html</code></p>
+            <img src="images/about.svg" alt="" class="about-photo" width="720" height="900" loading="lazy" decoding="async">
+            <p class="caption">Placeholder graphic — add <code>images/portrait.jpg</code> and point <code>src</code> here if you want a photo.</p>
           </div>
           <div class="about-text">
             <p class="about-pull">Cars and engineering have been a through-line—design, dynamics, and systems thinking. I still bring that obsession to work: <strong>rigor, clarity, and respect for the machine</strong>—whether it’s a vehicle platform or a software release.</p>
@@ -116,12 +116,12 @@
       <section class="section section-work" id="work">
         <div class="section-tag">[02]</div>
         <h2 class="section-title">Work</h2>
-        <p class="section-intro">Leadership, research, and tools—imagery is thematic; replace with your own photos when ready.</p>
+        <p class="section-intro">Illustrations are local SVGs (always load). Swap for your own photos in <code>images/</code> anytime.</p>
 
         <article class="work-row">
           <div class="work-num">[01]</div>
           <div class="work-visual">
-            <img src="https://images.unsplash.com/photo-1557404763-69708cd8c851?w=1200&q=80&auto=format&fit=crop" alt="" width="1200" height="800" loading="lazy">
+            <img src="images/work-motional.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
           </div>
           <div class="work-copy">
             <h3 class="work-title">Motional — AV performance &amp; systems test</h3>
@@ -138,7 +138,7 @@
         <article class="work-row work-row-reverse">
           <div class="work-num">[02]</div>
           <div class="work-visual">
-            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200&q=80&auto=format&fit=crop" alt="" width="1200" height="800" loading="lazy">
+            <img src="images/work-aptiv.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
           </div>
           <div class="work-copy">
             <h3 class="work-title">Aptiv — sensor test &amp; verification</h3>
@@ -155,7 +155,7 @@
         <article class="work-row">
           <div class="work-num">[03]</div>
           <div class="work-visual">
-            <img src="https://images.unsplash.com/photo-1581092160562-40aa08f78845?w=1200&q=80&auto=format&fit=crop" alt="" width="1200" height="800" loading="lazy">
+            <img src="images/work-kettering.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
           </div>
           <div class="work-copy">
             <h3 class="work-title">Kettering — graduate AV research</h3>
@@ -172,7 +172,7 @@
         <article class="work-row work-row-reverse">
           <div class="work-num">[04]</div>
           <div class="work-visual">
-            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&q=80&auto=format&fit=crop" alt="" width="1200" height="800" loading="lazy">
+            <img src="images/work-projects.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
           </div>
           <div class="work-copy">
             <h3 class="work-title">Projects — AGV &amp; firefighting robot</h3>
@@ -188,7 +188,7 @@
         <article class="work-row">
           <div class="work-num">[05]</div>
           <div class="work-visual">
-            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&q=80&auto=format&fit=crop" alt="" width="1200" height="800" loading="lazy">
+            <img src="images/work-code.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
           </div>
           <div class="work-copy">
             <h3 class="work-title">Tools &amp; code</h3>
