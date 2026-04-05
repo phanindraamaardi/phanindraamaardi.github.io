@@ -1059,33 +1059,12 @@ code {
 
 .pub-card {
   position: relative;
-  padding: 0 0 1.65rem;
+  padding: 1.25rem 0 1.65rem;
   border-radius: 1rem;
   border: 1px solid var(--line);
   background: var(--bg);
   box-shadow: 0 12px 40px rgba(12, 12, 12, 0.06);
   overflow: hidden;
-}
-
-.pub-thumb {
-  position: relative;
-  z-index: 1;
-  margin: 0 0 1rem;
-  aspect-ratio: 16 / 9;
-  max-height: 200px;
-  overflow: hidden;
-  border-bottom: 1px solid var(--line);
-  background: var(--bg);
-  isolation: isolate;
-}
-
-.pub-thumb img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-  display: block;
-  background: rgba(12, 12, 12, 0.35);
 }
 
 .pub-card .pub-ribbon,
