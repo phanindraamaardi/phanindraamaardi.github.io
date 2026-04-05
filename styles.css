@@ -346,6 +346,16 @@ code {
   letter-spacing: 0.02em;
 }
 
+
+
+.hero-intro {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--muted);
+  max-width: min(52rem, 100%);
+  margin: 0 0 1rem;
+}
+
 .hero-strengths {
   font-size: 0.9rem;
   line-height: 1.5;
