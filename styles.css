@@ -601,6 +601,45 @@ code {
   font-weight: 600;
 }
 
+.work-desc-lead {
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+.work-desc-prior {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+}
+
+.work-subhead {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 1.35rem 0 0.5rem;
+}
+
+.work-subhead:first-of-type {
+  margin-top: 0.85rem;
+}
+
+.work-impact-list {
+  margin: 0.35rem 0 0;
+  padding: 0 0 0 1.15rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.work-impact-list li {
+  margin-bottom: 0.35rem;
+}
+
 .work-tags {
   list-style: none;
   margin: 0;
@@ -841,6 +880,11 @@ code {
 .hero-strengths strong {
   color: var(--fg);
   font-weight: 600;
+}
+
+.hero-co {
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .section-intro-wide {
@@ -1153,4 +1197,9 @@ code {
 
 .work-flag--aptiv {
   background: linear-gradient(90deg, #0891b2, #7c3aed);
+}
+
+.work-flag--current {
+  background: linear-gradient(90deg, #8b5cf6, #f59e0b);
+  color: #0c0c0c;
 }
