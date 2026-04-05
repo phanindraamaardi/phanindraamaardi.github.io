@@ -342,8 +342,16 @@ code {
   font-size: 0.95rem;
   font-weight: 500;
   color: var(--muted);
-  margin: 0 0 2rem;
+  margin: 0 0 0.75rem;
   letter-spacing: 0.02em;
+}
+
+.hero-strengths {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--muted);
+  max-width: 36rem;
+  margin: 0 0 1.75rem;
 }
 
 .hero-lead {
@@ -492,6 +500,17 @@ code {
   font-style: italic;
 }
 
+.about-pull {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--fg);
+}
+
+.about-pull strong {
+  font-weight: 600;
+}
+
 /* Work rows */
 .section-work .section-intro {
   margin-bottom: 3rem;
@@ -549,13 +568,27 @@ code {
   font-family: var(--serif);
   font-size: 1.65rem;
   font-weight: 400;
+  margin: 0 0 0.35rem;
+}
+
+.work-meta {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.02em;
   margin: 0 0 0.75rem;
 }
 
 .work-desc {
   color: var(--muted);
   margin: 0 0 1rem;
-  max-width: 36ch;
+  max-width: min(100%, 42rem);
+  line-height: 1.6;
+}
+
+.work-desc strong {
+  color: var(--fg);
+  font-weight: 600;
 }
 
 .work-tags {
@@ -713,6 +746,20 @@ code {
   margin: 0;
   font-size: 0.8rem;
   color: var(--muted);
+}
+
+.foot-note {
+  margin-top: 0.75rem !important;
+  font-size: 0.75rem !important;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.45;
+}
+
+.foot-note code {
+  font-size: 0.7rem;
+  word-break: break-all;
 }
 
 /* Scroll progress line */
