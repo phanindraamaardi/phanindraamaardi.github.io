@@ -1045,11 +1045,15 @@ code {
 }
 
 .pub-thumb {
+  position: relative;
+  z-index: 1;
   margin: 0 0 1rem;
   aspect-ratio: 16 / 9;
   max-height: 200px;
   overflow: hidden;
   border-bottom: 1px solid var(--line);
+  background: var(--bg);
+  isolation: isolate;
 }
 
 .pub-thumb img {
