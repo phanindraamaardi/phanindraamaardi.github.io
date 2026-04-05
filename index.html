@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Phanindra Amaradi — Autonomous vehicles since 2013. IEEE research, Aptiv sensors, Motional AV performance & verification.">
+  <meta name="description" content="Phanindra Amaradi — Autonomous vehicles since 2013. IEEE research, Aptiv sensors, Motional AV performance and verification.">
   <meta property="og:title" content="Phanindra Amaradi">
   <meta property="og:description" content="Autonomous vehicles engineer — research, IEEE publications, and shipping autonomy on the road.">
   <meta property="og:type" content="website">
@@ -34,7 +34,7 @@
     .hero-badge { display: inline-flex; align-items: center; gap: .5rem; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 1rem; }
     .hero-badge span { padding: .35rem .75rem; border-radius: 999px; border: 1px solid var(--line); background: rgba(245,158,11,.12); color: var(--fg); }
   </style>
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -87,16 +87,16 @@
         <a class="scroll-hint" href="#strip">[scroll to explore]</a>
       </section>
 
-      <div class="preview-strip" id="strip" aria-hidden="true">
+      <div class="preview-strip" id="strip" aria-label="Photo themes: roads, vehicles, lab work, metrics">
         <div class="preview-track">
-          <figure class="preview-cell"><img src="images/strip-road.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
-          <figure class="preview-cell"><img src="images/strip-sensors.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
-          <figure class="preview-cell"><img src="images/strip-research.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
-          <figure class="preview-cell"><img src="images/strip-code.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
-          <figure class="preview-cell" aria-hidden="true"><img src="images/strip-road.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
-          <figure class="preview-cell" aria-hidden="true"><img src="images/strip-sensors.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
-          <figure class="preview-cell" aria-hidden="true"><img src="images/strip-research.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
-          <figure class="preview-cell" aria-hidden="true"><img src="images/strip-code.svg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell"><img src="images/photo-strip-highway.jpg" alt="Highway driving" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell"><img src="images/photo-strip-sensors.jpg" alt="Vehicle sensors and exterior systems" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell"><img src="images/photo-strip-research.jpg" alt="Engineering lab and hardware" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell"><img src="images/photo-strip-code.jpg" alt="Data and metrics dashboards" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell" aria-hidden="true"><img src="images/photo-strip-highway.jpg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell" aria-hidden="true"><img src="images/photo-strip-sensors.jpg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell" aria-hidden="true"><img src="images/photo-strip-research.jpg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
+          <figure class="preview-cell" aria-hidden="true"><img src="images/photo-strip-code.jpg" alt="" width="600" height="400" loading="lazy" decoding="async"></figure>
         </div>
       </div>
 
@@ -142,8 +142,8 @@
 
         <div class="about-layout about-layout--after">
           <div class="about-visual">
-            <img src="images/about.svg" alt="" class="about-photo" width="720" height="900" loading="lazy" decoding="async">
-            <p class="caption">Placeholder graphic — add <code>images/portrait.jpg</code> and point <code>src</code> here if you want a photo.</p>
+            <img src="images/photo-about.jpg" alt="Automotive engineering and vehicle systems" class="about-photo" width="720" height="900" loading="lazy" decoding="async">
+            <p class="caption">Illustrative photo (replace with <code>images/portrait.jpg</code> if you want a headshot). The work section below uses project-themed photography for each chapter of the story.</p>
           </div>
           <div class="about-text">
             <p class="about-pull">Cars and engineering have been a through-line—design, dynamics, and systems thinking. I still bring that obsession to work: <strong>rigor, clarity, and respect for the machine</strong>—whether it is a vehicle platform or a software release.</p>
@@ -159,6 +159,7 @@
 
         <div class="pub-grid">
           <article class="pub-card pub-card--a">
+            <div class="pub-thumb"><img src="images/photo-strip-highway.jpg" alt="" width="600" height="340" loading="lazy" decoding="async"></div>
             <p class="pub-ribbon">Achievement</p>
             <h3 class="pub-title">Vision-based lane tracking &amp; path planning for autonomous navigation</h3>
             <p class="pub-meta">IEEE conference / proceedings · graduate research era · ~2014–2015</p>
@@ -169,6 +170,7 @@
             </div>
           </article>
           <article class="pub-card pub-card--b">
+            <div class="pub-thumb"><img src="images/photo-strip-sensors.jpg" alt="" width="600" height="340" loading="lazy" decoding="async"></div>
             <p class="pub-ribbon">Achievement</p>
             <h3 class="pub-title">LiDAR obstacle avoidance &amp; steering control for autonomous ground vehicles</h3>
             <p class="pub-meta">IEEE conference / proceedings · graduate research era · ~2014–2015</p>
@@ -184,12 +186,13 @@
       <section class="section section-work" id="work">
         <div class="section-tag">[03]</div>
         <h2 class="section-title">Work</h2>
-        <p class="section-intro section-intro-wide">Roughly chronological—how research turned into shipping programs.</p>
+        <p class="section-intro section-intro-wide">Roughly chronological—how research turned into shipping programs. Each image is a <strong>real photograph</strong> matched to the theme (swap files in <code>images/</code> for your own project shots).</p>
 
         <article class="work-row">
           <div class="work-num">[01]</div>
           <div class="work-visual">
-            <img src="images/work-kettering.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            <img src="images/photo-work-kettering.jpg" alt="Laboratory research and instrumentation" width="1200" height="800" loading="lazy" decoding="async">
+            <p class="work-caption">Graduate research: lab builds, measurement, and iteration—where the IEEE AV work came from.</p>
           </div>
           <div class="work-copy">
             <h3 class="work-title">Kettering — where AV started (2013–2015)</h3>
@@ -206,7 +209,8 @@
         <article class="work-row work-row-reverse">
           <div class="work-num">[02]</div>
           <div class="work-visual">
-            <img src="images/strip-road.svg" alt="" width="600" height="400" loading="lazy" decoding="async">
+            <img src="images/photo-work-autoliv.jpg" alt="Vehicle crash safety testing" width="1200" height="800" loading="lazy" decoding="async">
+            <p class="work-caption">Safety &amp; crash: structural loads, occupant protection, and why hardware limits matter for autonomy.</p>
           </div>
           <div class="work-copy">
             <h3 class="work-title">Autoliv · safety &amp; crash</h3>
@@ -223,7 +227,8 @@
         <article class="work-row work-row--highlight">
           <div class="work-num">[03]</div>
           <div class="work-visual">
-            <img src="images/work-aptiv.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            <img src="images/photo-work-aptiv.jpg" alt="Car cockpit with displays and driver assistance technology" width="1200" height="800" loading="lazy" decoding="async">
+            <p class="work-caption">ADAS / AV stack: in-cabin systems, displays, and the sensor–ECU world I verified at Aptiv.</p>
           </div>
           <div class="work-copy">
             <div class="work-flag work-flag--aptiv">Back to autonomous driving</div>
@@ -241,7 +246,8 @@
         <article class="work-row work-row-reverse">
           <div class="work-num">[04]</div>
           <div class="work-visual">
-            <img src="images/work-motional.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            <img src="images/photo-work-motional.jpg" alt="Performance car on a road network" width="1200" height="800" loading="lazy" decoding="async">
+            <p class="work-caption">Fleet &amp; road programs: performance, triage, and closing the loop from street to release.</p>
           </div>
           <div class="work-copy">
             <h3 class="work-title">Motional — AV performance &amp; systems test</h3>
@@ -258,7 +264,8 @@
         <article class="work-row">
           <div class="work-num">[05]</div>
           <div class="work-visual">
-            <img src="images/work-projects.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            <img src="images/photo-work-projects.jpg" alt="Humanoid robot representing embedded and robotics projects" width="1200" height="800" loading="lazy" decoding="async">
+            <p class="work-caption">Academic &amp; side builds: perception, embedded logic, and prototypes outside the production stack.</p>
           </div>
           <div class="work-copy">
             <h3 class="work-title">Projects — AGV &amp; firefighting robot</h3>
@@ -274,7 +281,8 @@
         <article class="work-row work-row-reverse">
           <div class="work-num">[06]</div>
           <div class="work-visual">
-            <img src="images/work-code.svg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            <img src="images/photo-work-code.jpg" alt="Laptop with code on screen" width="1200" height="800" loading="lazy" decoding="async">
+            <p class="work-caption">Tools &amp; repos: dashboards, automation, and experiments I ship on GitHub.</p>
           </div>
           <div class="work-copy">
             <h3 class="work-title">Tools &amp; code</h3>
@@ -341,6 +349,7 @@
     <footer class="frame-foot">
       <p>© <span id="year"></span> Phanindra Amaradi</p>
       <p class="foot-note">Updated portfolio lives at the <a href="https://phanindraamaardi.github.io/">site root</a> (not the older <code>…/phanindra.amaradi.github.io/</code> project page).</p>
+      <p class="foot-photo">Photography is stock (Unsplash), stored locally in <code>images/photo-*.jpg</code> for reliable loading—replace with your own project or team photos anytime.</p>
     </footer>
   </div>
 
