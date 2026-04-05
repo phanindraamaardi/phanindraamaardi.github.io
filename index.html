@@ -34,7 +34,7 @@
     .hero-badge { display: inline-flex; align-items: center; gap: .5rem; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 1rem; }
     .hero-badge span { padding: .35rem .75rem; border-radius: 999px; border: 1px solid var(--line); background: rgba(245,158,11,.12); color: var(--fg); }
   </style>
-  <link rel="stylesheet" href="styles.css?v=20">
+  <link rel="stylesheet" href="styles.css?v=21">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -407,27 +407,44 @@
 
       <section class="section section-contact" id="contact">
         <div class="section-tag">[06]</div>
-        <div class="contact-panel">
-          <h2 class="contact-heading">Contact</h2>
-          <p class="contact-lead">Recruiters, hiring managers, collaborators: reach out by email or LinkedIn—I typically reply within a few business days. Social links below for context.</p>
-          <dl class="contact-details">
-            <div class="contact-field">
-              <dt class="contact-label">Address</dt>
-              <dd class="contact-value">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-intro section-intro-wide">Recruiters, hiring managers, collaborators: reach out by email or LinkedIn—I typically reply within a few business days.</p>
+
+        <ul class="contact-list" role="list">
+          <li class="contact-line">
+            <span class="contact-glyph" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div class="contact-line-body">
+              <span class="contact-line-label">Address</span>
+              <p class="contact-line-value">
                 <a href="https://www.google.com/maps/search/?api=1&amp;query=29715+Thistle+Ln+New+Hudson+MI+48165" target="_blank" rel="noopener noreferrer">29715 Thistle Ln</a><br>
                 <a href="https://www.google.com/maps/search/?api=1&amp;query=29715+Thistle+Ln+New+Hudson+MI+48165" target="_blank" rel="noopener noreferrer">New Hudson, MI 48165</a>
-              </dd>
+              </p>
             </div>
-            <div class="contact-field">
-              <dt class="contact-label">Phone</dt>
-              <dd class="contact-value"><a href="tel:+18104070577">(810) 407-0577</a></dd>
+          </li>
+          <li class="contact-line">
+            <span class="contact-glyph" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </span>
+            <div class="contact-line-body">
+              <span class="contact-line-label">Phone</span>
+              <p class="contact-line-value"><a href="tel:+18104070577">(810) 407-0577</a></p>
             </div>
-            <div class="contact-field">
-              <dt class="contact-label">Email</dt>
-              <dd class="contact-value"><a href="mailto:phanindra.amaradi@gmail.com">phanindra.amaradi@gmail.com</a></dd>
+          </li>
+          <li class="contact-line">
+            <span class="contact-glyph" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <div class="contact-line-body">
+              <span class="contact-line-label">Email</span>
+              <p class="contact-line-value"><a href="mailto:phanindra.amaradi@gmail.com">phanindra.amaradi@gmail.com</a></p>
             </div>
-          </dl>
-          <ul class="contact-icon-row" aria-label="Social profiles">
+          </li>
+        </ul>
+
+        <p class="contact-social-title">Social</p>
+        <ul class="contact-icon-row" aria-label="Social profiles">
             <li>
               <a class="contact-icon" href="https://www.linkedin.com/in/phanindra-amaradi-11706493/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
@@ -449,7 +466,6 @@
               </a>
             </li>
           </ul>
-        </div>
       </section>
     </main>
 

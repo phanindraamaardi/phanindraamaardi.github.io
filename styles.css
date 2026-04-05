@@ -804,88 +804,102 @@ code {
   color: var(--fg);
 }
 
-/* Contact — dark card, underlined details, circular social icons */
+/* Contact — inline rows with icons, no card chrome */
 .section-contact {
   padding-bottom: clamp(4rem, 12vw, 7rem);
 }
 
-.contact-panel {
-  max-width: 26rem;
-  margin: 0 auto;
-  padding: clamp(2rem, 5vw, 2.75rem);
-  background: #0a0a0c;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 14px;
-  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.35);
+.section-contact .section-title {
+  margin-bottom: 0.35rem;
 }
 
-.contact-heading {
-  margin: 0 0 0.5rem;
-  font-family: var(--font);
-  font-size: clamp(1.35rem, 3.5vw, 1.85rem);
-  font-weight: 700;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--fg);
-  padding-bottom: 0.85rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.85);
+.contact-list {
+  list-style: none;
+  margin: 0 0 2.25rem;
+  padding: 0;
+  max-width: 40rem;
 }
 
-.contact-lead {
-  margin: 1.25rem 0 2rem;
-  font-size: 0.9rem;
-  line-height: 1.55;
+.contact-line {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.contact-line:last-child {
+  border-bottom: none;
+}
+
+.contact-glyph {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--line);
+  border-radius: 50%;
   color: var(--muted);
+  background: color-mix(in srgb, var(--fg) 4%, transparent);
 }
 
-.contact-details {
-  margin: 0;
+.contact-glyph svg {
+  width: 1.1rem;
+  height: 1.1rem;
 }
 
-.contact-field {
-  margin: 0 0 1.75rem;
+.contact-line-body {
+  min-width: 0;
 }
 
-.contact-field:last-of-type {
-  margin-bottom: 0;
-}
-
-.contact-label {
-  margin: 0 0 0.4rem;
+.contact-line-label {
+  display: block;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--fg);
+  color: var(--muted);
+  margin-bottom: 0.35rem;
 }
 
-.contact-value {
+.contact-line-value {
   margin: 0;
   font-size: 1rem;
   line-height: 1.55;
   color: var(--fg);
 }
 
-.contact-value a {
+.contact-line-value a {
   color: var(--fg);
-  text-decoration: underline;
-  text-underline-offset: 0.18em;
-  text-decoration-thickness: 1px;
-  transition: opacity 0.2s;
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+  transition: border-color 0.2s, color 0.2s;
 }
 
-.contact-value a:hover {
-  opacity: 0.88;
+.contact-line-value a:hover {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+
+.contact-social-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.85rem;
 }
 
 .contact-icon-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.85rem;
+  gap: 0.9rem;
   list-style: none;
-  margin: 2.25rem 0 0;
+  margin: 0;
   padding: 0;
+  max-width: 40rem;
 }
 
 .contact-icon {
@@ -894,15 +908,16 @@ code {
   justify-content: center;
   width: 2.65rem;
   height: 2.65rem;
-  border: 1px solid rgba(255, 255, 255, 0.88);
+  border: 1px solid var(--line);
   border-radius: 50%;
-  color: #fafafa;
+  color: var(--fg);
+  background: transparent;
   transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 
 .contact-icon:hover {
-  background: rgba(255, 255, 255, 0.06);
-  border-color: #fff;
+  background: color-mix(in srgb, var(--fg) 6%, transparent);
+  border-color: var(--fg);
 }
 
 .contact-icon:focus-visible {
