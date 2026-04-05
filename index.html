@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Phanindra Amaradi — engineering portfolio">
+  <title>Phanindra Amaradi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="logo" href="#">PA</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <p class="eyebrow">Portfolio</p>
+      <h1>Phanindra Amaradi</h1>
+      <p class="lede">
+        Autonomous vehicles, systems engineering, and building teams that close the loop between
+        development, testing, and field performance.
+      </p>
+      <p class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Get in touch</a>
+        <a class="btn btn-ghost" href="https://github.com/phanindraamaardi" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        Replace this paragraph with a short bio: your focus areas, what you care about in engineering,
+        and what you’re looking for next. Keep it concise—two or three sentences is enough for v1.
+      </p>
+    </section>
+
+    <section id="work" class="section">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li>
+          <h3>Your role — Company</h3>
+          <p class="meta">Dates · Location</p>
+          <p>One or two bullets on impact. Add more roles below.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Project title</h3>
+          <p>One-line description. Link to repo or demo when ready.</p>
+          <a href="#" class="card-link">View →</a>
+        </article>
+        <article class="card">
+          <h3>Another project</h3>
+          <p>Short summary.</p>
+          <a href="#" class="card-link">View →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <h2>Contact</h2>
+      <p>Add a professional email or a LinkedIn link—avoid posting full address/phone unless you want them public.</p>
+      <p class="contact-links">
+        <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <span class="sep">·</span>
+        <a href="https://github.com/phanindraamaardi" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Phanindra Amaradi</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
