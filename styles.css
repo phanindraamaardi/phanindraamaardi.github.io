@@ -8,7 +8,75 @@
   --accent-hover: #5eb0ed;
   --border: rgba(255, 255, 255, 0.08);
   --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --max: 42rem;
+  --max: 46rem;
+}
+
+code {
+  font-size: 0.85em;
+  background: var(--surface);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+.text-strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.section-intro {
+  margin: -0.25rem 0 1rem !important;
+  font-size: 0.95rem;
+}
+
+.skills {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills li {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
+}
+
+.company {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin: 0 0 0.35rem;
+  font-weight: 600;
+}
+
+.timeline .role-bullets {
+  margin: 0.5rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.timeline .role-bullets li {
+  margin-bottom: 0.35rem;
+}
+
+.card-meta {
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin: -0.25rem 0 0.5rem !important;
+}
+
+.hint {
+  font-size: 0.85rem !important;
+  margin-top: 1rem !important;
+  font-style: italic;
 }
 
 *,
